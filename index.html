@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hybrid Classical — Starter Tracks</title>
+<style>
+  body{font:16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin:20px;}
+  h1{font-size:1.4rem;margin:.2rem 0 1rem}
+  p{margin:.4rem 0 1rem}
+  ul{padding-left:1.1rem}
+  li{margin:.6rem 0}
+  a{color:#0b63c6;text-decoration:none}
+  a:hover{text-decoration:underline}
+  small{color:#666}
+  .note{background:#f6f8fa;border:1px solid #e5e7eb;border-radius:8px;padding:.75rem;margin-top:1.25rem}
+</style>
+
+<h1>Hybrid Classical — Starter Tracks</h1>
+<p>Tap a track to open it in the app. All files here are public-domain or copyright-clear.</p>
+
+<ul>
+  <!-- Frère Jacques (public domain) -->
+  <li>
+    <a href="https://hybridclassical.ai/?track=https%3A%2F%2Flaurenceglazier.github.io%2Fhc-tracks%2Faudio%2Ffrere_jacques.mp3">
+      Frère Jacques — Round (demo)
+    </a>
+    <br><small>Loads directly into the app.</small>
+  </li>
+
+  <!-- Optional: direct listen link (useful for quick sanity checks) -->
+  <li>
+    <a href="audio/frere_jacques.mp3">Frère Jacques — listen in browser</a>
+    <br><small>Plays in this tab (for testing audio reachability).</small>
+  </li>
+</ul>
+
+<div class="note">
+  <strong>Add more tracks:</strong>
+  <ol>
+    <li>Upload <code>.mp3</code> files into <code>/audio/</code> in this repo.</li>
+    <li>Make a new list item that links back to the app with a <code>?track=</code> parameter.<br>
+      Format: <code>https://hybridclassical.ai/?track=</code><em>encodeURIComponent(fileURL)</em><br>
+      Example for <code>audio/my_piece.mp3</code>:<br>
+      <code>https://hybridclassical.ai/?track=https%3A%2F%2Flaurenceglazier.github.io%2Fhc-tracks%2Faudio%2Fmy_piece.mp3</code>
+    </li>
+  </ol>
+</div>
+
+</html>
